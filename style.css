@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(255, 0, 0, 0.264);
+  font-family: "IBM Plex Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  overflow-x: hidden;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+nav li {
+  margin: 0 20px;
+}
+.pag1 {
+  width: 100%;
+  height: 100%;
+  background-color: #040415;
+  color: white;
+  position: relative;
+}
+.pag1 .container {
+  width: 470px;
+  height: 300px;
+  /* background-color: red; */
+  position: absolute;
+  left: 50%;
+  top: 55%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  overflow-y: hidden;
+  border-radius: 10px;
+}
+.pag1 .container h1 {
+  font-size: 80px;
+}
+.innercontainer {
+  width: 100%;
+  height: 250px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.innercontainer ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  font-size: 20px;
+  /* padding: 10px; */
+  background-color: #141026;
+  border: none;
+}
+.innercontainer ul li {
+  border: none;
+  /* height: 100%; */
+  padding: 10px 32px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  color: #757575;
+  /* display: inline-block; */
+}
+.innercontainer ul li:hover {
+  background-color: #3b3750;
+  color: white;
+}
+.innercontainer ul li:first-child {
+  background-color: #21143c;
+  color: white;
+}
+.maincontant {
+  width: 100%;
+  background-color: #21143c;
+  padding: 10px;
+}
+.maincontant input {
+  width: 90%;
+  height: 50px;
+  border-radius: 10px;
+  /* border: none; */
+  background-color: #0e0822;
+  border: 1px solid white;
+}
+.maincontant input::placeholder,
+#inspire,
+#chat {
+  font-size: 17px;
+  padding: 0px 5px;
+  color: #757575;
+}
+
+/* Hey! I'm a smart AI chatbot. Ask me anything! */
+#inspire,
+#chat {
+  height: 50px;
+  margin: 20px 5px;
+  border-radius: 10px;
+  border: none;
+}
+#inspire {
+  width: 27%;
+  box-shadow: 2px 2px 5px #542496, -2px -2px 5px #542496;
+  background-color: #281f4a;
+  color: white;
+}
+#chat {
+  width: 58%;
+  background-color: #41256e;
+}
+
+.pag2{
+  width: 100%;
+  /* height: 100%; */
+  text-align: center;
+  background-color: #040415;
+}
+.pag2 h2{
+  color: white;
+}
+.pag2 div{
+  height: 60px;
+  width: 240px;
+  background-color: #0e0722;
+  margin:20px auto ;
+  padding: 15px;
+  font-size: 20px;
+  font-weight: 400;
+  border-radius: 10px;
+  color: white;
+  border: 1px solid white;
+  
+}
+.pag2 div:hover{
+  box-shadow: 2px 2px 5px #542496, -2px -2px 5px #542496;
+}
+footer{
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding:  0px 20px;
+}
+footer ul{
+  display: flex;
+  list-style: none;
+  font-size: 18px;
+
+}
+footer li{
+  margin: 0px 10px ;
+}
