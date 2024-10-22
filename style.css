@@ -90,10 +90,12 @@ nav li {
   width: 90%;
   height: 50px;
   border-radius: 10px;
-  /* border: none; */
   background-color: #0e0822;
   border: 1px solid white;
+  color: white;
+  font-size: 20px;
 }
+
 .maincontant input::placeholder,
 #inspire,
 #chat {
@@ -121,43 +123,46 @@ nav li {
   background-color: #41256e;
 }
 
-.pag2{
+.pag2 {
   width: 100%;
   /* height: 100%; */
   text-align: center;
   background-color: #040415;
 }
-.pag2 h2{
+.pag2 h2 {
   color: white;
 }
-.pag2 div{
+.pag2 div {
   height: 60px;
   width: 240px;
   background-color: #0e0722;
-  margin:20px auto ;
+  margin: 20px auto;
   padding: 15px;
   font-size: 20px;
   font-weight: 400;
   border-radius: 10px;
   color: white;
   border: 1px solid white;
-  
 }
-.pag2 div:hover{
+.pag2 div:hover {
   box-shadow: 2px 2px 5px #542496, -2px -2px 5px #542496;
 }
-footer{
+footer {
   color: white;
   display: flex;
   justify-content: space-between;
-  padding:  0px 20px;
+  padding: 0px 20px;
 }
-footer ul{
+footer ul {
   display: flex;
   list-style: none;
   font-size: 18px;
+}
+footer li {
+  margin: 0px 10px;
+}
 
-}
-footer li{
-  margin: 0px 10px ;
-}
+/* .userInput {
+  color: white;
+  font-size: 20px;
+} */
