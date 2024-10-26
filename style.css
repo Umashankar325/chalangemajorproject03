@@ -13,6 +13,7 @@ body {
   font-style: normal;
   font-variation-settings: "wdth" 100;
   overflow-x: hidden;
+  position: relative;
 }
 nav {
   display: flex;
@@ -23,6 +24,7 @@ nav ul {
   display: flex;
   justify-content: space-between;
   list-style: none;
+  cursor: pointer;
 }
 nav li {
   margin: 0 20px;
@@ -123,11 +125,13 @@ nav li {
   background-color: #41256e;
 }
 
-.pag2 {
+.pag2,
+.pag3 {
   width: 100%;
   /* height: 100%; */
   text-align: center;
   background-color: #040415;
+  overflow: hidden;
 }
 .pag2 h2 {
   color: white;
@@ -148,12 +152,17 @@ nav li {
   box-shadow: 2px 2px 5px #542496, -2px -2px 5px #542496;
 }
 footer {
+  position: absolute;
   color: white;
   display: flex;
   justify-content: space-between;
   padding: 0px 20px;
+  /* background-color: RED; */
+  width: 100%;
+  bottom: 0%;
 }
 footer ul {
+  text-align: right;
   display: flex;
   list-style: none;
   font-size: 18px;
@@ -166,3 +175,34 @@ footer li {
   color: white;
   font-size: 20px;
 } */
+.pag3 {
+  height: 100%;
+  position: relative;
+}
+.pag3 .container{
+height: 450px;
+width: 700px;
+/* border: 1px solid red; */
+border-radius: 10px;
+position: absolute;
+background-color: #21143c;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+color: white;
+
+}
+.pag3 .container h2{
+  background-color: #41256e;
+  box-shadow: 2px 2px 5px #542496, -2px -2px 5px #542496;
+  width: 40%;
+  margin: 10px auto;
+  padding: 10px;
+  font-size: 30px;
+  border-radius: 10px;
+}
+.pag3 .container p{
+  font-size: 23px;
+  text-align: justify;
+  padding: 20px;
+}
